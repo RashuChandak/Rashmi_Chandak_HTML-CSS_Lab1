@@ -1,0 +1,48 @@
+body{
+    margin: 05;
+    background-color: rgb(192, 131, 214);
+}
+
+video{
+    position: fixed;
+}
+
+div{
+    position: absolute;
+    margin: 50px;
+    left: 35%;
+    min-width:350 px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 50px;
+    
+
+}
+
+input{
+    width: 300px;
+    min-width: 100px;
+    border: 1px solid brown;
+    padding: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus{
+    outline: none;
+    color: white;
+    background-color: rgba(70, 130,180,0.35);
+}
+
+button{
+    margin: 20px;
+    width: 120px;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 22px;
+    background-color: rgb(133, 130, 196);
+}
